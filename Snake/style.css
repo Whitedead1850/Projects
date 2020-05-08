@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+}
+
+.canvas {
+    height: 400px;
+    width: 400px;
+    background-color: #3e3e3e;
+}
