@@ -19,8 +19,8 @@ body {
 }
 
 .white-key {
-    width: 40px;
-    height: 120px;
+    width: 80px;
+    height: 220px;
     background-color: #FFF;
     border: 4px solid black;
     border-radius: 0 0 6px 6px;
@@ -35,8 +35,8 @@ body {
 
 .black-key {
     position: absolute;
-    width: 24px;
-    height: 80px;
+    width: 40px;
+    height: 140px;
     background-image: linear-gradient(#000000, #303030);
     border: 3px solid black;
     border-radius: 0 0 2px 2px;
@@ -50,29 +50,29 @@ body {
 }
 
 .Db4-key {
-    left: 22px;
+    left: 55px;
 }
 
 .Eb4-key {
-    left: 58px;
-}
-
-.Gb4-key {
     left: 130px;
 }
 
+.Gb4-key {
+    left: 285px;
+}
+
 .Ab4-key {
-    left: 166px;
+    left: 360px;
 }
 
 .Bb4-key {
-    left: 202px;
+    left: 435px;
 }
 
 .Db5-key {
-    left: 274px;
+    left: 585px;
 }
 
 .Eb5-key {
-    left: 310px;
+    left: 660px;
 }
