@@ -1,0 +1,29 @@
+body {
+    font-size: 14px;
+}
+
+.btn {
+    padding-top: .75em;
+    padding-bottom: .75em;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn-group-flex {
+    display: flex;
+}
+
+.btn {
+    flex-grow: 1;
+}
+
+&:not(:first-child) {
+    border-left: none !important;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+&:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
